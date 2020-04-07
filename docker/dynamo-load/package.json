@@ -1,0 +1,8 @@
+{
+  "dependencies": {},
+  "name": "dynamo-load",
+  "description": "node.js application for loading login dynamodb table",
+  "version": "0.0.1",
+  "devDependencies": {},
+  "author": "Doc Duncan"
+}
