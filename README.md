@@ -10,7 +10,7 @@ this project is designed to be a personal password manager, similar to LastPass
 ### docker
 
 1. **dynamo-load**
-  - docker container used to given csv data into a given dynamo table
+   - docker container used to given csv data into a given dynamo table
 
 ### terraform
 - all aws resources
