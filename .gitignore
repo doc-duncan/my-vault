@@ -4,3 +4,6 @@ terraform.*
 
 # aws creds
 .aws
+
+# csv input
+*.csv
