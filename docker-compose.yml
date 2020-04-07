@@ -1,0 +1,4 @@
+version: '3.7'
+services:
+  dynamo-load:
+    build: ./docker/dynamo-load
