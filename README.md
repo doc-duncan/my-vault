@@ -11,8 +11,14 @@ this project is designed to be a personal password manager, similar to LastPass
 1. **dynamo-load**
    - docker container used to load given csv data into a given dynamo table
 
-### terraform
-- all aws resources
+### infra-terraform
+- infrastrucutre terraform that is built before packages
+
+### lambda-terraform
+- lambda terraform that is built after infrastructure and packages (references packages)
+
+### pkg
+- used to hold lambda packages .zip 
 
 ### docker-compose.yaml - builds the following containers
 - dynamo-load
