@@ -7,3 +7,6 @@ terraform.*
 
 # csv input
 *.csv
+
+# package
+*.zip

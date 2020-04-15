@@ -8,7 +8,6 @@ this project is designed to be a personal password manager, similar to LastPass
 - if the master password matches, then the password for the desired app is returned
 
 ### docker
-
 1. **dynamo-load**
    - docker container used to load given csv data into a given dynamo table
 
@@ -16,6 +15,5 @@ this project is designed to be a personal password manager, similar to LastPass
 - all aws resources
 
 ### docker-compose.yaml - builds the following containers
-
 - dynamo-load
 
