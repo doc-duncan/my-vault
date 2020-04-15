@@ -3,9 +3,9 @@ resource "aws_lambda_function" "my-vault-fetch" {
   s3_bucket     = "my-vault-package"
   s3_key        = "v1.0.0/fetch.zip"
   handler       = "main.handler"
-  runtime       = "nodejs12.x" 
+  runtime       = "nodejs12.x"
   role          = aws_iam_role.my-vault-fetch-role.arn
-  depends_on    = [
+  depends_on = [
     aws_iam_role_policy_attachment.basic-logging-policy-attachment,
     aws_iam_role_policy_attachment.my-vault-fetch-policy-attachment
   ]
@@ -50,7 +50,7 @@ data "aws_iam_policy_document" "my-vault-fetch-trust-policy-doc" {
 
 data "aws_iam_policy_document" "my-vault-fetch-policy-doc" {
   statement {
-    sid     = "AllowDynamo"
+    sid = "AllowDynamo"
     actions = [
       "dynamodb:DescribeTable",
       "dynamodb:Query",
