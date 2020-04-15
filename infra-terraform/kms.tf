@@ -10,6 +10,6 @@ resource "aws_kms_key" "my-vault-key-pair" {
 
 resource "aws_kms_alias" "my-vault-key-pair" {
   name          = "alias/my-vault-key-pair"
-  target_key_id = aws_kms_key.my-vault-key-pair.arn 
+  target_key_id = aws_kms_key.my-vault-key-pair.arn
 }
 
