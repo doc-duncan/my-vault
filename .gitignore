@@ -1,6 +1,5 @@
 # terraform
 .terraform/
-terraform.*
 
 # aws creds
 .aws
